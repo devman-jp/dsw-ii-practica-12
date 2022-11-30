@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.idat.HospitalMicroserviceIIIE.dto.HospitalDTO;
+import com.idat.HospitalMicroserviceIIIE.service.HospitalService;
 
 
 @Controller
