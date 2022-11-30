@@ -6,6 +6,6 @@ import org.springframework.stereotype.Repository;
 import com.idat.HospitalMicroserviceIIIE.model.Hospital;
 
 @Repository
-public class HospitalRepository  extends JpaRepository<Hospital, Integer> {
+public interface HospitalRepository  extends JpaRepository<Hospital, Integer> {
 
 }
